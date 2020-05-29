@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.mainheader {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    /*espace entre logo et menu*/
+    align-items: center;
+}
+
+.mainheader .logo img {
+    width: 250px;
+    height: 200px;
+    padding-left: 60px;
+    /*espace left*/
+}
+
+.mainheader nav {
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainheader nav a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.menubtn {
+    margin-right: 60px;
+}
+
+.mainheader button {
+    padding: 10px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    background-image: linear-gradient(to right, #649bff, #0070fa, #649bff);
+    border-radius: 10px;
+}

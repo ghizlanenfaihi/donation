@@ -1,0 +1,74 @@
+body {
+    background-image: url(pp.png);
+    background-size: cover;
+}
+
+.container {
+    width: 50%;
+    height: 400px;
+    background: #fff;
+    margin: 135px 320px 20px;
+    border: 2px solid #fff;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .5);
+    border-radius: 20px;
+}
+
+.container .left {
+    float: left;
+    width: 50%;
+    height: 400px;
+    background: url(p.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.container .right {
+    float: right;
+    width: 50%;
+    height: 400px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.formbox {
+    width: 100%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.formbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: rgb(168, 8, 8);
+}
+
+.formbox input {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.formbox .user {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(168, 8, 8);
+    height: 40px;
+}
+
+.formbox .connexion {
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    background: tan;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.formbox .connexion:hover {
+    background: #d9bf77;
+}

@@ -1,0 +1,44 @@
+  #bg {
+      width: 100%;
+      height: 50vh;
+  }
+  
+  .pg {
+      font-family: 'Abril Fatface', cursive;
+      color: white;
+      font-size: 30px;
+      position: absolute;
+      top: 40%;
+      left: 30%;
+  }
+  
+  .text {
+      font-family: 'Abril Fatface', cursive;
+      color: white;
+      font-size: 30px;
+      position: absolute;
+      top: 30%;
+      left: 28%;
+  }
+  
+  .cases .img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      float: left;
+      margin: 40px 20px 30px 0;
+      border: 2px solid white;
+      shape-outside: circle();
+  }
+  
+  .text-d {
+      text-align: justify;
+      line-height: 20px;
+      color: rgb(0, 0, 0);
+      font-size: 20px;
+  }
+  
+  .text-i {
+      font-family: Audiowide;
+      color: rgb(247, 0, 0);
+  }
